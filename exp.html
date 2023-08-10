@@ -1,0 +1,36 @@
+<html lang="ko">
+<head>
+    <title>인공지능응용학과 | 손글씨 분류기 체험</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<link rel="stylesheet" href="css/main.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="logo">서울과학기술대학교 | 인공지능응용학과</a>
+            <nav id="nav">
+                <a href="intro.html">학과소개</a>
+                <a href="prof.html">교수소개</a>
+                <a href="future.html">미래전망</a>
+                <a href="map.html">오시는길</a>
+            </nav>
+        </div>
+    </header>
+    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+    
+    <canvas id="canvas" width="280" height="280" style="position:absolute;top:200;left:100;border:8px solid;"></canvas>
+    <img id="canvasimg" width="280" height="280" style="position:absolute;top:10%;left:52%;display:none;">
+    <input type="button" value="분류하기" id="sb" size="48" style="position:absolute;top:500;left:100;">
+    <input type="button" value="지우기" id="cb" size="23" style="position:absolute;top:500;left:240;">
+    
+    <script src="js/mnist1.js"></script>
+    <script src="js/mnist2.js"></script>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
