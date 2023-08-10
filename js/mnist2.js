@@ -47,7 +47,7 @@ var canvas, ctx, saveButton, clearButton;
       	return model.fit(trainXs, trainYs, {
       		batchSize: BATCH_SIZE,
       		validationData: [testXs, testYs],
-      		epochs: 1,
+      		epochs: 16,
       		shuffle: true,
       		callbacks: fitCallbacks
       	});
