@@ -1966,7 +1966,7 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #fceced;
+				background: #afafaf;
 			}
 
 			input[type="submit"].alt:active,
@@ -1974,7 +1974,7 @@
 			input[type="button"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #f9dadb;
+				background-color: #afafaf;
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -3364,7 +3364,7 @@
 		color: #4a4a4a;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../images/index2.jpeg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 15% left;
@@ -3966,31 +3966,3 @@
 			}
 
 		}
-
-        .grid-image {
-            display:flex;
-            flex-wrap:wrap;
-            align-items:flex-start;
-            margin:30px 0;
-        }
-        .grid-image img {
-            width:calc(50% - 10px);
-            margin:0 15px 15px 0;
-        }
-        .grid-image img:nth-of-type(2n),
-        .grid-image img:last-child {
-            margin-right:0;
-        }
-        @media screen and (max-width:640px){
-          .grid-image img {
-            width:calc(50% - 15px);
-          }
-        }
-        @media screen and (max-width:480px){
-          .grid-image img:nth-of-type(1n) {
-            margin-right:0;
-          }
-          .grid-image img:nth-of-type(2n) {
-            margin-right:15px;
-          }
-        }
